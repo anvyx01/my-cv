@@ -1,0 +1,374 @@
+body {
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  padding: 88px 80px 40px 88px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background: #59574f;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 400px;
+}
+
+.sidebar-content {
+  padding: 40px 40px 40px;
+  box-sizing: border-box;
+}
+
+.contacts-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.contacts-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.contacts-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.contacts-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contacts-container {
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  margin-bottom: 40px;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.skills-list {
+  padding-left: 24px;
+}
+
+.skills-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.lang-container {
+  margin-bottom: 40px;
+}
+
+.lang-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.lang-list {
+  padding-left: 24px;
+}
+
+.lang-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 121%;
+  color: #000;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 122%;
+  color: #000;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.my-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+
+.my-info {
+  margin-bottom: 40px;
+}
+
+.projects {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.projects-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #000;
+}
+
+.projects-item {
+  padding-left: 16px;
+}
+
+.projects-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #403d32;
+}
+
+.projects-tools {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+
+.projects-container {
+  margin-bottom: 40px;
+}
+
+.work-exp {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.work-period {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+.company {
+  color: #403d32;
+}
+
+.work-exp-separator {
+  color: #000;
+}
+
+.work-exp-list {
+  padding-left: 16px;
+}
+
+.work-exp-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+
+.work-exp-container {
+  margin-bottom: 40px;
+}
+
+.company-container {
+  margin-bottom: 12px;
+}
+
+.education {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.university {
+  font-weight: 700;
+  font-size: 16px;
+  color: #403d32;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.specialization {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.education-period {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+  line-height: 14px;
+  margin-top: 2px;
+}
+
+.education-separator {
+  color: #000;
+  margin: 0 4px;
+}
+
+.education-container {
+  margin-top: 10px;
+}
+
+#footer-info {
+  grid-column: 1 / span 2;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+/* Темна тема */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .projects-link,
+body.dark-mode .projects-tools,
+body.dark-mode .work-exp-item,
+body.dark-mode .my-descr,
+body.dark-mode .work-exp,
+body.dark-mode .projects-list,
+body.dark-mode .position,
+body.dark-mode .work-exp-separator,
+body.dark-mode .projects,
+body.dark-mode .name,
+body.dark-mode .profession,
+body.dark-mode .company,
+body.dark-mode .specialization,
+body.dark-mode .education,
+body.dark-mode .university {
+  color: #f0f0f0;
+}
+
+body.dark-mode .wrapper {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .sidebar {
+  background-color: #333;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#comments-container-wrapper {
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+
+#comments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comment {
+  background-color: #f2edf9;
+  border-left: 3px solid #3c3c38;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dark-mode .comment {
+  background-color: #2c2c2c;
+  border-left: 3px solid #727272;
+  padding: 10px;
+  border-radius: 5px;
+}
