@@ -372,3 +372,43 @@ body.dark-mode .sidebar {
   padding: 10px;
   border-radius: 5px;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* напівпрозорий фон */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+}
+
+/*кнопка закрити*/
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*темна тема*/
+body.dark-mode .modal-content {
+  background-color: #222;
+  color: #fff;
+}
